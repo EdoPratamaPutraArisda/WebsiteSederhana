@@ -1,0 +1,78 @@
+body{
+    font: 16px/20px arial-sanserif;
+    background-color: #eaeaea;
+    background-image:url(img/Bg.jpg) ;
+    color: #333;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 4px
+}
+.header a:hover{
+   background-color: lavender;
+    color: skyblue;      
+}
+
+.hero {
+    height: 400px;
+    background-image: url(img/hero.jpg) ;
+    background-size: cover;
+    background-position: 0 -500px;
+    border-bottom: 3px solid rgb(48, 48, 48);
+}
+
+.content{
+    padding: 20px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight:bold;
+}
+.content .penulis{
+    font-size: 11px;
+    margin-top: -20px;
+
+}
+.content .penulis a{
+    color: red;
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 30px;
+    font-size: 14px;
+
+}
+.footer{
+    background-color: #333;
+    padding: 3px;
+}
+.footer p{
+    margin: auto;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
